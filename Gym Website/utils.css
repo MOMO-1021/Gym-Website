@@ -1,0 +1,52 @@
+
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+}
+.font-bold{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.mg-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mg-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pd-2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.text-orangish{
+    color: #f0453d;
+}
+.btn{
+    padding: 5px 13px;
+    background: #f0453d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.text-center{
+    text-align: center;
+}
+.font-ubuntu{
+    font-family: "ubuntu",sans-serif;
+}

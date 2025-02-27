@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navBar {
+  display: flex;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.navList {
+  display: flex;
+  height: 7rem;
+}
+.navList li {
+  list-style: none;
+  margin: 0 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.topLeft {
+  width: 50%;
+  /* height: 50vh; */
+}
+.topRight {
+  width: 50%;
+  /* height: 50vh; */
+}
+.section1 {
+  max-height: 100vh;
+}
+.section1 h1 {
+  font-size: 2rem;
+}
+.section2 {
+  padding: 4rem 8rem;
+}
+.section2 h1 {
+  font-size: 3rem;
+}
+.section2 p {
+  padding: 0 5vw;
+}
+.logo {
+  font-size: 1.3rem;
+}
+.dumbellImg {
+  width: 11.1rem;
+  padding: 0 1.2rem;
+}
+.topRight .gymImg {
+  height: 38rem;
+}
+.boxes {
+  width: 65vw;
+}
+.box {
+  padding: 8px 0;
+  margin: 1.3rem 3.3rem;
+  min-width: 15vw;
+  border: 2px solid #e06640a8;
+  text-align: center;
+  border-radius: 30px;
+}
+.box li {
+  list-style: none;
+  margin: 12px 5px;
+}
+.box h2 {
+  font-size: 2rem;
+  padding: 12px;
+}
+.highlighted {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #ab6d5f;
+}
+.hr-length {
+  width: 253px;
+  color: #e06640a8;
+}
+.planTable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3{
+  border: 2px solid black;
+  padding: 0 5rem;
+}
+.section3 h1{
+  font-size: 2.2rem;
+}
+.section3 table{
+  width: 100%;
+  margin-top: 2.4rem;
+  margin-bottom: 8.6rem;
+  border-collapse: collapse;
+}
+.section3 table th{
+  width: 26vw;
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+}
+.section3 table td{
+  border-bottom: 2px solid black;
+  width: 23px;
+}
+thead{
+  padding-right: 23px;
+}
